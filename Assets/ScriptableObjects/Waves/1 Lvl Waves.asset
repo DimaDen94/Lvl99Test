@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879a9e93f871c4466b974fc445d325d9, type: 3}
+  m_Name: 1 Lvl Waves
+  m_EditorClassIdentifier: 
+  _wawes:
+  - WaveUnits:
+    - delay: 0
+      enemy: 0
+    - delay: 5
+      enemy: 0
+    - delay: 8
+      enemy: 1
+  - WaveUnits:
+    - delay: 3
+      enemy: 1
+    - delay: 10
+      enemy: 1
+    - delay: 10
+      enemy: 2
+  - WaveUnits:
+    - delay: 3
+      enemy: 0
+    - delay: 4
+      enemy: 1
+    - delay: 8
+      enemy: 2
+    - delay: 9
+      enemy: 4

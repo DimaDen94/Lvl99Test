@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{3A8057B6-5634-909E-4B4B-6D09B897F566}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameBootstrapper.cs">
+    <Files>
+      <File FileName="Assets/GameBootstrapper.cs" Line="40" Column="43" />
+      <File FileName="Assets/PauseState.cs" Line="7" Column="31" />
+      <File FileName="Assets/GameBootstappState.cs" Line="26" Column="31" />
+      <File FileName="Assets/GameLoopState.cs" Line="36" Column="27" />
+      <File FileName="Assets/GameStateMachine.cs" Line="15" Column="60" />
+      <File FileName="Assets/Scripts/Enemy/WaveStateMachine.cs" Line="31" Column="55" />
+      <File FileName="Assets/Scripts/Enemy/SpawningState.cs" Line="99" Column="33" />
+      <File FileName="Assets/Scripts/Hero/Hero.cs" Line="6" Column="28" />
+      <File FileName="Assets/Scripts/Enemy/EnemyPoolManager.cs" Line="11" Column="6" />
+      <File FileName="Assets/Scripts/Enemy/AllWavesCompletedState.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/Services/Wallet.cs" Line="30" Column="23" />
+      <File FileName="Assets/LivesView.cs" Line="3" Column="23" />
+      <File FileName="Assets/Scripts/GameBootstrapper.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cbec7266-2307-4b49-bf65-38e48520a446" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
