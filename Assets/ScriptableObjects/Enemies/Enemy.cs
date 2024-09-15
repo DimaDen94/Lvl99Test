@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour, IPausable
     public float Speed => _speed;
     public int Reward => _reward;
 
-
+    private EnemyData _data;
     private float _health;
     private int _damage;
     private float _speed;
@@ -29,10 +29,11 @@ public class Enemy : MonoBehaviour, IPausable
 
     public void Init(EnemyData data, Hero hero, Spline spline)
     {
-        _health = data.Health;
-        _damage = data.Damage;
-        _speed = data.Speed;
-        _reward = data.Reward;
+        _data = data;
+        _health = _data.Health;
+        _damage = _data.Damage;
+        _speed = _data.Speed;
+        _reward = _data.Reward;
 
         _hero = hero;
 
@@ -74,6 +75,7 @@ public class Enemy : MonoBehaviour, IPausable
     public void ReturnToPoll()
     {
         CompletedPath?.Invoke();
+        _health = _data.Health;
     }
 
     public void Pause() => _pause = true;
