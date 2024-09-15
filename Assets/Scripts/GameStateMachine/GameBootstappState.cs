@@ -1,6 +1,4 @@
-﻿using System;
-
-public class GameBootstappState : IGameState
+﻿public class GameBootstappState : IGameState
 {
     private readonly GameStateMachine _gameStateMachine;
     private readonly WaveManager _waveManager;

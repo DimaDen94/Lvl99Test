@@ -1,6 +1,4 @@
-﻿using System;
-
-public class GameLoopState : IGameState
+﻿public class GameLoopState : IGameState
 {
     private readonly GameStateMachine _gameStateMachine;
     private readonly Hero _hero;

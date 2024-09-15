@@ -27,24 +27,6 @@ public class SpawningState : IWaveState, IPausable
         _stateMachine = stateMachine;
     }
 
-    public float WaveDurationTimeRemaining
-    {
-        get => _waveDurationTimeRemaining;
-        set => _waveDurationTimeRemaining = value;
-    }
-
-    public float SpawnTimer
-    {
-        get => _spawnTimer;
-        set => _spawnTimer = value;
-    }
-
-    public int EnemiesSpawned
-    {
-        get => _enemiesSpawned;
-        set => _enemiesSpawned = value;
-    }
-
     public void Enter()
     {
         if (!_isPaused)
